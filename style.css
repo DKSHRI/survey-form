@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-vector/flat-abstract-wireframe-background_23-2149002713.jpg?w=826&t=st=1700132883~exp=1700133483~hmac=7464bf330b20b7deff7db8057af0b0d46c79d3214b28ae0ff0590a70a2d5ddab);
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.heading{
+    width: 100vw;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.email{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.number{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.drop{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.checkbox{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.comment{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.botton{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+  
+}
+input{
+    width: 25vw;
+  
+}
+input:hover{
+    background: beige;
+    border: 1px solid black;
+    border-radius: 6px;
+    transition:1s all ;
+}
+#submit{
+    width:25vw ;
+    height: 5vh;
+    background-color: blueviolet;
+}
+#submit:hover{
+    margin-top: 10px;
+    width:20vw ;
+    height: 5vh;
+    background: rgb(223, 243, 4);
+    border: 1px solid black;
+    border-radius: 6px;
+    transition:1s all ;
+}

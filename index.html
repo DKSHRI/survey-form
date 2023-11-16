@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading">  <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum fugiat enim, tempore quaerat necessitatibus qui ratione officia delectus quia!</p>
+    </div>
+  <div class="main">
+   
+    <div class="form">
+        <form id="survey-form">
+          <div class="name">
+            <label for="text" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="devanshu shrivstava" required>
+          </div>
+          <div class="email">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="devanshu.shrivastava@surveyform.com" required>
+            
+          </div>
+           <div class="number">
+            <label for="number" id="number-label">Number</label>
+   <input type="number" name="number" id="number" placeholder="+917668xxxxx" min="0" max="10000000000">
+    
+           </div>   
+   <div class="drop">
+    <label for="Which option best describes your current role?">Which option best describes your current role?</label>
+   <select id="dropdown" name="role" class="form-control" required>
+   <option disable selected value>Select value</option>
+   <option value="student">Student</option>
+   <option value="Part time">Part time</option>
+
+   </div>
+   <div class="radio">
+    <label for="friendd">Would you recommend freeCodeCamp to a friend?</label>
+   <input type="radio" name="recommendation" id="friendd1" value="Definitely">Definitely
+   <input type="radio" name="recommendation" id="friendd2" value="Maybe">Maybe
+   </div>
+  <div class="checkbox">
+    <label for="What would you like to see improved? (Check all that apply)">What would you like to see improved? (Check all that apply)</label>
+    <input type="checkbox" value="1" id="1">Front-end Projects
+    <input type="checkbox" value="2" id="2">Back-end Projects
+  </div>
+<div class="comment">
+    <label for="cmmnt">Any comments or suggestions?</label>
+<textarea name="text-area" id="text-area" cols="50
+" rows="10px"></textarea>
+</div>
+
+       <div class="botton">
+        <button id="submit">Submit</button>
+       </div>
+</form>
+    </div>
+    
+  </div>
+</body>
+</html>
